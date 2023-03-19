@@ -1,23 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ストップウォッチ</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
     <h1>ストップウォッチ</h1>
     <div id="container">
         <div id="time"> 00:00:00.000
         </div>
         <div id="btns">
             <button id="start">スタート</button>
-            <button id="stop">ストップ</button>
-            <button id="reset">リセット</button>
+            <button id="stop" disabled>ストップ</button>
+            <button id="reset" disabled>リセット</button>
         </div>
+    </header>
+<script src="js/script.js"></script>
+<footer>
+    <ul class="copyright">
+        <p class="copyright"> &copy; 2021
+            <script type="text/javascript" language="JavaScript">
+                                  <!--
+                                    var TYnow = new Date();document.write( ' - ' + TYnow.getFullYear() );
+                                  // -->
+                                  </script>
+                                  <a href="https://www.skri.gr.jp/">Yuta SAKURAI. </a> / 
+                                  <a href="https://www.skri.gr.jp/survey/index.php/629556?lang=ja">CONTACT</a> / 
+                                  <a href="https://www.skri.gr.jp/privacy/">PRIVACY POLICY</a></p>
+    </ul>
 
-
+</footer>
 </body>
 </html>
