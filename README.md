@@ -12,7 +12,7 @@
 
 ## 使用方法
 
-1. https://tools.skri.gr.jp/stopwatch にアクセスしてください。
+1. https://tools.skri.gr.jp/stopwatch/index.html にアクセスしてください。
 2. アプリを開くと、ストップウォッチが表示されます。
 2. スタートボタンを押すとタイマーが開始されます。
 3. ストップボタンを押すとタイマーが停止します。
