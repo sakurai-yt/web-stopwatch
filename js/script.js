@@ -1,3 +1,5 @@
+"use strict";
+
 /* ボタンの要素を取得する */
 const time = document.getElementById("time");
 const start = document.getElementById("start");
