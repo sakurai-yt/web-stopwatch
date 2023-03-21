@@ -53,3 +53,31 @@ h1 {
 .copyright a{
     color: #584d4d;
 }
+
+
+/* レスポンシブデザイン */
+@media screen and (max-width: 768px) {
+    #container {
+        width: 80%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }   
+
+    #time {
+        font-size: 36px;
+    }
+    
+    #btns {
+        margin-top: 10px;
+    }
+
+    #start, #stop, #reset {
+        padding: 5px 10px;
+        height: 40px;
+        width: 90px;
+        font-size: 14px;
+    }
+}
